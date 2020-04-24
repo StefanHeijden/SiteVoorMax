@@ -1,0 +1,24 @@
+{
+  "name": "svm",
+  "version": "1.0.0",
+  "description": "Package voor site van max",
+  "main": "main.js",
+  "scripts": {
+    "dev": "lite-server --config src/con.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanHeijden/SiteVoorMax.git"
+  },
+  "author": "Stefan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanHeijden/SiteVoorMax/issues"
+  },
+  "homepage": "https://github.com/StefanHeijden/SiteVoorMax#readme",
+  "dependencies": {
+    "lint": "^0.7.0",
+    "lite-server": "^2.5.4",
+    "mocha": "^7.1.1"
+  }
+}
