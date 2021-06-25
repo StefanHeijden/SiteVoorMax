@@ -13,6 +13,7 @@ import Artist from './pages/Artist.js'
 import Label from './pages/Label.js'
 import Store from './pages/Store.js'
 import Contact from './pages/Contact.js'
+import Footer from './pages/Footer.js'
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       </header>
-      <Switch>
+      <div class="page">
+        <Switch>
           <Route path="/story">
             <Story />
           </Route>
@@ -61,7 +63,9 @@ function App() {
             <Home />
           </Route>
         </Switch>
+      </div>
       </Router>
+      <Footer/>
     </div>
   );
 }
